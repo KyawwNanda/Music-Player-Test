@@ -1,0 +1,61 @@
+body {
+  background-color: #343a40;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  justify-content: center;
+  background: url(https://scontent.frgn2-2.fna.fbcdn.net/v/t39.30808-6/317624841_716545419838722_6152427495974123162_n.jpg?stp=dst-jpg_p480x480&_nc_cat=102&ccb=1-7&_nc_sid=e3f864&_nc_ohc=GhCYqnX1mvsAX9rWsbD&_nc_ht=scontent.frgn2-2.fna&oh=00_AfA1O7aFdkiSJlb7qkfT7OarlIHeyVDniUYo9DyWIWS04Q&oe=6427343F);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.playlistContainer {
+  margin-top: 20px;
+  margin-bottom: 50px;
+ 
+}
+
+.trackItem {
+  color: hsl(73, 51%, 82%);
+  font-size: 20px;
+  border-bottom: 1px solid #ffc107;
+  padding: 10px 0px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.musicPlayer {
+  display: flex;
+  flex-direction: row;
+}
+
+.currentAndTotalTime {
+  color: #fff;
+}
+
+#progressBar {
+  width: 500px;
+  height: 5px;
+  background-color: #6c757d;
+}
+
+#currentProgress {
+  width: 0px;
+  height: 100%;
+  background-color: #e9d69f;
+}
+
+.controls {
+  font-size: 30px;
+  color: #f50f2e;
+  margin: 20px 40px;
+  cursor: pointer;
+}
+
+.pauseButton {
+  display: none;
+}
